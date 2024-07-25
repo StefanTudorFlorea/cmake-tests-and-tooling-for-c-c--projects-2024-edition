@@ -2,5 +2,5 @@
 #include <iostream>
 
 void printHello() {
-    std::cout << "jello world";
+    std::cout << "jello world\n";
 }
