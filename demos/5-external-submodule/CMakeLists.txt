@@ -1,5 +1,4 @@
 # confi paths
-set (CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_SOURCE_DIR}/cmake")
 include(AddGitSubmodule)
 
 # add 3rd-party as manual submodule
