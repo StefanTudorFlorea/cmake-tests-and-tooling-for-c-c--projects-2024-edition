@@ -6,7 +6,11 @@
         "iostream": "cpp"
     },
     "cSpell.words": [
+        "COLORSTYLE",
+        "DOXYFILE",
+        "doxygen",
         "fillcolor",
-        "lightgreen"
+        "lightgreen",
+        "TREEVIEW"
     ]
 }

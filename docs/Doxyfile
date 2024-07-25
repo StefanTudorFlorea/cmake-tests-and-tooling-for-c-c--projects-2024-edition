@@ -15,6 +15,15 @@ OUTPUT_LANGUAGE   = English
 MARKDOWN_SUPPORT  = YES
 
 #---------------------------------------------------------------------------
+# Awesome css
+#---------------------------------------------------------------------------
+GENERATE_TREEVIEW     = YES
+DISABLE_INDEX         = NO
+FULL_SIDEBAR          = NO
+HTML_EXTRA_STYLESHEET = config/doxygen-awesome.css
+HTML_COLORSTYLE       = LIGHT
+
+#---------------------------------------------------------------------------
 # Configure Graphs
 #---------------------------------------------------------------------------
 HAVE_DOT          = YES
