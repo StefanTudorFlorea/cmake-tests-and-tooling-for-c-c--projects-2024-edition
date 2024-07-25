@@ -1,0 +1,1 @@
+add_executable(6-documentation src/main.cpp)

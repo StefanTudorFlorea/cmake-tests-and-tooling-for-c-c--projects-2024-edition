@@ -2,6 +2,11 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
         "string_view": "c",
-        "*.in": "c"
-    }
+        "*.in": "c",
+        "iostream": "cpp"
+    },
+    "cSpell.words": [
+        "fillcolor",
+        "lightgreen"
+    ]
 }
