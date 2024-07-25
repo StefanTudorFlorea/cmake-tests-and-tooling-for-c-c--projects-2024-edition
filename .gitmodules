@@ -1,0 +1,3 @@
+[submodule "/home/sfl/devel/cmake-tests-and-tooling-for-c-c--projects-2024-edition/external/json"]
+	path = /home/sfl/devel/cmake-tests-and-tooling-for-c-c--projects-2024-edition/external/json
+	url = https://github.com/nlohmann/json

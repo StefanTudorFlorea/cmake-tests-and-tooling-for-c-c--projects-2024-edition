@@ -6,8 +6,8 @@ set(EXECUTABLE_NAME "5-external")
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/)
 include(AddGitSubmodule)
 
-add_git_submodule("https://github.com/StefanTudorFlorea/bika" external/bika)
-message(${CMAKE_SOURCE_DIR})
+add_git_submodule("https://github.com/nlohmann/json" external/json)
+
 # targets
 add_subdirectory(my_lib)
 add_subdirectory(app)

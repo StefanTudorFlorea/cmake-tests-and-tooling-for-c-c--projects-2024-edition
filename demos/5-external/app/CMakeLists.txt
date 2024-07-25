@@ -1,2 +1,2 @@
 add_executable(${EXECUTABLE_NAME} src/main.cpp)
-target_link_libraries(${EXECUTABLE_NAME} PUBLIC ${LIBRARY_NAME})
+target_link_libraries(${EXECUTABLE_NAME} PUBLIC ${LIBRARY_NAME} nlohmann_json::nlohmann_json)
