@@ -9,6 +9,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # find our custom functions and modules
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
+# let cmake also know about testing
+include(CTest)
 
 # add demos
 add_subdirectory(demos/1-hello-world)
@@ -18,3 +20,5 @@ add_subdirectory(demos/4-config-files)
 add_subdirectory(demos/5-external-submodule)
 add_subdirectory(demos/5-external-fetch)
 add_subdirectory(demos/6-documentation)
+add_subdirectory(demos/7-unit-testing)
+add_subdirectory(demos/8-warnings)
