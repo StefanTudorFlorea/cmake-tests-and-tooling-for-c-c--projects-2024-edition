@@ -19,7 +19,6 @@ void undefined_bool() {
     bool b = 10;
 }
 
-
 int main() {
 
     // out_of_bounds();
@@ -27,5 +26,5 @@ int main() {
     // leak();
     undefined_bool();
 
-    std::cout << "\ndone\n"; 
+    std::cout << "\ndone\n";
 }
