@@ -2,13 +2,13 @@
 
 void out_of_bounds() {
     int a[2];
-    // a[2] = 0;
+    a[2] = 0;
 }
 
 void user_after_free() {
     int* p = new int{};
     delete p;
-    // *p = 42;
+    *p = 42;
 }
 
 void leak() {
